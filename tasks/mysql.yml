@@ -5,7 +5,7 @@
     name={{ wp_db_name }}
     state=present
     login_host={{ wp_db_host }}
-    login_user={{ wp_db_user}}
+    login_user={{ wp_db_user }}
     login_password={{ wp_db_password }}
   register: wp_mysql_db_create
 
