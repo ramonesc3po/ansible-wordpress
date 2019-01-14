@@ -1,0 +1,6 @@
+---
+- include_tasks: wordpress.yml
+  tags: wordpress
+
+- include_tasks: mysql.yml
+  tags: mysql
